@@ -22,15 +22,15 @@ body{
 }
 
 .main-nav a{
-	display:inline-block;
+	display:inline;
 	border-radius: 5px 5px 0px 0px;
 	border-bottom: 10px solid white;
 	background-color:rgba(255, 255, 255, 0.64);
 	color:black;
 	text-decoration:none;
 	padding: 5px 10px;
-	position:unset;
-	top:-10px;
+	position:relative;
+	top:-5px;
 	transition: top 300ms ease;
 }
 
